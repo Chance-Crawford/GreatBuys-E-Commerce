@@ -1,3 +1,4 @@
+// uses environment variables to mask MySQL username, password, and database name
 require('dotenv').config();
 
 const Sequelize = require('sequelize');
