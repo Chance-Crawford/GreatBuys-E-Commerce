@@ -39,6 +39,7 @@ Product.init(
     },
     // product references category that the product
     // belongs to.
+    // can be null.
     category_id: {
       type: DataTypes.INTEGER,
       references: {
