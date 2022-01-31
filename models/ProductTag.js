@@ -4,6 +4,8 @@ const sequelize = require('../config/connection');
 
 class ProductTag extends Model {}
 
+// Through model, allow products to have 
+// multiple tags and tags to have many products.
 ProductTag.init(
   {
     // define columns
